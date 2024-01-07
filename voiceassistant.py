@@ -51,8 +51,7 @@ def run_alexa():
         talk("sorry,i have an headache")
     elif 'are you single' in  command:
         talk("im in relationship with chandu") 
-    elif 'joke'in command:
-        talk(pyjokes.get_joke())
+   
     elif 'cry'  in command:    
     
         talk("please say the command again")       
